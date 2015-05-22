@@ -1,11 +1,13 @@
 #!/usr/bin/env python
 import sys
-from book_club import build
+from book_club import build, setup
 
 help_msg = """
 Thanks for downloading and installing the book_club package!
 Don't forget to have a template.jinja, book-club.yml,
 and style.css in this directory.
+
+These can be easily created with the command `book-club setup`
 
 To build the page run `book-club build`.
 It will generate an `index.html` file in the current directory.
@@ -15,5 +17,7 @@ For more info,  check out https://elijahcaine.me/book_club/README.rst.
 
 if 'build' in sys.argv:
     build()
+elif 'setup' in sys.argv:
+    setup()
 else:
     print(help_msg)

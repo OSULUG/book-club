@@ -9,6 +9,8 @@ from yaml import load
 from jinja2 import Environment, FileSystemLoader
 from os.path import isfile
 from os import getcwd
+from urllib.request import urlretrieve
+
 
 def test_files():
     yell = ''
@@ -17,7 +19,8 @@ def test_files():
         if not isfile(n):
             yell += n + " does not appear to be available.\n"
     if yell:
-        raise Exception(yell + "Use book_club.setup() to fix it.")
+        raise Exception(yell + " run `book-club setup` to fix it.")
+        exit(1)
 
 def build():
     test_files()
@@ -46,8 +49,11 @@ def build():
 
 def setup():
     if not isfile("style.css"):
-        print("FIXME add sample style.css where it should go")
+        response = urlretrieve('https://raw.githubusercontent.com/ElijahCaine/book_club/master/style.css', 'style.css')
+        print("Downloaded example style.css")
     if not isfile("template.jinja"):
-        print("FIXME add sample template.jinja where it should go")
-    if not isfime("book-club.yml"):
-        print("FIXME add sample book-club.yml where it should go")
+        response = urlretrieve('https://raw.githubusercontent.com/ElijahCaine/book_club/master/template.jinja', 'template.jinja')
+        print("Downloaded example template.jinja")
+    if not isfile("book-club.yml"):
+        response = urlretrieve('https://raw.githubusercontent.com/ElijahCaine/book_club/master/book-club.yml', 'book-club.yml')
+        print("Downloaded example book-club.yml")
