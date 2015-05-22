@@ -7,8 +7,19 @@ Hosted on http://elijahcaine.me/bookclub/
 """
 from yaml import load
 from jinja2 import Environment, PackageLoader
+from os.path import isfile
+
+def test_files():
+    yell = ''
+    needed = ["template.jinja", "book-club.yml", "style.css"]
+    for n in needed:
+        if not isfile(n):
+            yell += n + " does not appear to be available.\n"
+    if yell:
+        raise Exception(yell + "Use book_club.setup() to fix it.")
 
 def build():
+    test_files()
     with open('book-club.yml') as f:
         cfg = load(f)
 
@@ -30,3 +41,11 @@ def build():
 
     with open('index.html', 'w') as f:
         f.write(page)
+
+def setup():
+    if not isfile("style.css"):
+        print "FIXME add sample style.css where it should go"
+    if not isfile("template.jinja"):
+        print "FIXME add sample template.jinja where it should go"
+    if not isfime("book-club.yml"):
+        print "FIXME add sample book-club.yml where it should go"
