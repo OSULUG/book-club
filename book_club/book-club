@@ -2,14 +2,16 @@
 import sys
 from book_club import build
 
-help_msg = "Thank's for downloading and installing the book_club package!\n\
-            Don't forget to have a template.jinja, book-club.yml,\n\
-            and style.css in this directory.\n\
-            \n\
-            To build the page run `book-club build`.\n\
-            It will generate an `index.html` file in the current directory.\n\
-            \n\
-            For more info checkout https://elijahcaine.me/book_club/README.rst.\n"
+help_msg = """
+Thanks for downloading and installing the book_club package!
+Don't forget to have a template.jinja, book-club.yml,
+and style.css in this directory.
+
+To build the page run `book-club build`.
+It will generate an `index.html` file in the current directory.
+
+For more info,  check out https://elijahcaine.me/book_club/README.rst.
+"""
 
 if 'build' in sys.argv:
     build()
