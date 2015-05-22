@@ -1,1 +1,1 @@
-from book_club import build, setup
+from book_club.book_club import build, setup

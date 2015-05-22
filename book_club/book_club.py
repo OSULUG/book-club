@@ -6,8 +6,9 @@ Hosted on http://elijahcaine.me/bookclub/
     - me. right now.
 """
 from yaml import load
-from jinja2 import Environment, PackageLoader
+from jinja2 import Environment, FileSystemLoader
 from os.path import isfile
+from os import getcwd
 
 def test_files():
     yell = ''
@@ -24,7 +25,8 @@ def build():
         cfg = load(f)
 
     with open('template.jinja', 'r') as f:
-        env = Environment(loader=PackageLoader('book-club', '.'))
+        loader = FileSystemLoader(getcwd())
+        env= Environment(loader=loader)
         template = env.get_template('template.jinja')
         page =  template.render(release=cfg['release'],
                                 title=cfg['title'],
@@ -44,8 +46,8 @@ def build():
 
 def setup():
     if not isfile("style.css"):
-        print "FIXME add sample style.css where it should go"
+        print("FIXME add sample style.css where it should go")
     if not isfile("template.jinja"):
-        print "FIXME add sample template.jinja where it should go"
+        print("FIXME add sample template.jinja where it should go")
     if not isfime("book-club.yml"):
-        print "FIXME add sample book-club.yml where it should go"
+        print("FIXME add sample book-club.yml where it should go")
