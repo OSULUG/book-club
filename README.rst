@@ -12,9 +12,7 @@ Installation:
 
 .. code::
 
-    in theory you just run this:
     $ pip install git+https://github.com/ElijahCaine/book_club.git
-    but that's broken right now due to an ImportError which I am actively fixing *right now*.
 
 Setup
 -----
