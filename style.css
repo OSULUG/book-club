@@ -1,0 +1,12 @@
+#main {
+    width: 500px;
+    font-family: monospace;
+    font-size: 15px;
+    margin: 0 auto;
+}
+h5 {
+    color: white;
+    background: black;
+    text-align: right;
+    text-decoration: bold;
+}

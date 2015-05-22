@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>{{ title }}</title>
+
+        <link rel='stylesheet' type='text/css' href='style.css'>
+
+    </head>
+    <body>
+        <div id=main>
+            <h1>{{ site_title }}</h1>
+            <h5>{{ release }}</h5>
+            <p>Are you sick of only being entertained by your computer?</p>
+            <p>Do you wish you could do things that aren't staring at a screen?</p>
+            <h3><i>{{ tagline }}</i></h3>
+
+            <h2>This Month: <a href='{{ this_month_link }}'><i>{{ this_month_book }}</i></a></h2>
+            <p>Start Date: <b>{{ start_date }}</b> :: End Date: <b>{{ end_date }}</b></p>
+            <p>Meetup Place: {{ meetup_location }}</p>
+
+            <h3>Timeline:</h3>
+            <p><i>This is by no means a requirement, just a suggestion to help you stay on track and finish the book by the end date :)</i></p>
+            <ul>
+            {% for i in range(pacing|length) %}
+                <li>{{ pacing[i] }}</li>
+            {% endfor %}
+            </ul>
+            <p>{{ encouragement }}</p>
+
+            <h3>Wait what's happening?</h3>
+            <p>Some of the members of the #osu-lug community discovered that they all felt similarly about their constant use of technology. They realized that they'd rather find something else like a hobby, sport, or a book club.</p>
+            <p>So basically a few members of the community hastily decided 'LETS START A BOOK CLUB!!!' and now this exists.</p>
+            <p>We read a book every month and come together in meatspace to discuss the book. What we liked, what we didn't, etc.</p>
+
+            <p>If you have a suggestion for a book to read, or you'd like to host the meetup contact Eli. If you got here you probably know how to do that already.</p>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,21 @@
+title: "BOOK CLUB"
+site_title: "#osu-lug (kinda sorta) reading group!"
+release: "*beta*"
+
+tagline: "Read a book instead!"
+
+this_month_book: "100 Years of Solitude"
+this_month_link: "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude"
+
+start_date: "May 20, 2015"
+end_date: "June 20, 2015"
+
+meetup_location: "TBD"
+
+pacing:
+    - "May 20 - May 27 :: pp 1-111"
+    - "May 27 - June 3 :: pp 112-195"
+    - "June 3 - June 10 :: pp 195-313"
+    - "June 10 - June 19 :: pp 313 - 458"
+
+encouragement: "This works out to a little over 100 pages per week. If you pace yourself it's really not that bad -- but the point is to have fun!"
