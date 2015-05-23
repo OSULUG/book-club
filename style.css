@@ -38,11 +38,16 @@ li {
 }
 
 h2, h3 {
-    background: #111;
+    background: black;
     color: white;
 }
 
 h2 a {
     text-decoration: none;
     color: white;
+}
+
+.end {
+    color: black;
+    background: black;
 }
