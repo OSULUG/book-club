@@ -9,7 +9,7 @@ from yaml import load
 from jinja2 import Environment, FileSystemLoader
 from os.path import isfile
 from os import getcwd
-from urllib.request import urlretrieve
+import requests
 
 
 def test_files():
@@ -34,6 +34,7 @@ def build():
         page =  template.render(release=cfg['release'],
                                 title=cfg['title'],
                                 site_title=cfg['site_title'],
+                                preamble=cfg['preamble'],
                                 tagline=cfg['tagline'],
                                 this_month_book=cfg['this_month_book'],
                                 this_month_link=cfg['this_month_link'],
@@ -42,6 +43,9 @@ def build():
                                 meetup_location=cfg['meetup_location'],
                                 pacing=cfg['pacing'],
                                 encouragement=cfg['encouragement'],
+                                disclaimer=cfg['disclaimer'],
+                                explanation_title=cfg['explanation_title'],
+                                explanation=cfg['explanation']
                                 )
 
     with open('index.html', 'w') as f:
@@ -49,11 +53,17 @@ def build():
 
 def setup():
     if not isfile("style.css"):
-        response = urlretrieve('https://raw.githubusercontent.com/ElijahCaine/book_club/master/style.css', 'style.css')
+        download('https://raw.githubusercontent.com/ElijahCaine/book_club/master/style.css', 'style.css')
         print("Downloaded example style.css")
     if not isfile("template.jinja"):
-        response = urlretrieve('https://raw.githubusercontent.com/ElijahCaine/book_club/master/template.jinja', 'template.jinja')
+        download('https://raw.githubusercontent.com/ElijahCaine/book_club/master/template.jinja', 'template.jinja')
         print("Downloaded example template.jinja")
     if not isfile("book-club.yml"):
-        response = urlretrieve('https://raw.githubusercontent.com/ElijahCaine/book_club/master/book-club.yml', 'book-club.yml')
+        download('https://raw.githubusercontent.com/ElijahCaine/book_club/master/book-club.yml', 'book-club.yml')
         print("Downloaded example book-club.yml")
+
+def download(url=None, file=None):
+    print("Downloading " + file + " from " + url)
+    r = requests.get(url)
+    with open(file, "wb") as f:
+        f.write(r.content)
