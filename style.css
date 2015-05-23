@@ -4,9 +4,33 @@
     font-size: 15px;
     margin: 0 auto;
 }
-h5 {
+
+img.book {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+h1.title {
+    font-weight: bold;
+}
+
+h5.release {
     color: white;
     background: black;
     text-align: right;
     text-decoration: bold;
+}
+
+.important {
+    font-weight: bold;
+}
+
+.styled {
+    font-style: italic;
+}
+
+li {
+    list-style-type: none;
 }

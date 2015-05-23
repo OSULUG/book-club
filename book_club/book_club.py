@@ -38,6 +38,8 @@ def build():
                                 tagline=cfg['tagline'],
                                 this_month_book=cfg['this_month_book'],
                                 this_month_link=cfg['this_month_link'],
+                                this_month_image=cfg['this_month_image'],
+                                hovertext=cfg['hovertext'],
                                 start_date=cfg['start_date'],
                                 end_date=cfg['end_date'],
                                 meetup_location=cfg['meetup_location'],

@@ -1,22 +1,24 @@
-title: "BOOK CLUB"
-site_title: "#osu-lug (kinda sorta) reading group!"
-release: "*beta-ish*"
+title: "#osu-lug readin' club"
+site_title: "#osu-lug book readin' club."
+release: "cause words is nicer than pixles sometimes."
 
 preamble:
-    - "Are you sick of only being entertained by your computer?"
-    - "Do you wish you could do things that aren't staring at a screen?"
+    - "A book club for anybody and everybody who's just sick of looking at a computer screen for so damn long."
+    - "Hosted by the #osu-lug community."
 
-tagline: "Read a book instead!"
+tagline: ""
 
 this_month_book: "100 Years of Solitude"
 this_month_link: "https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude"
+this_month_image: "https://upload.wikimedia.org/wikipedia/en/a/a0/Cien_a%C3%B1os_de_soledad_%28book_cover%2C_1967%29.jpg"
+hovertext: "Chill out, its in english."
 
 start_date: "May 20, 2015"
 end_date: "June 20, 2015"
 
 meetup_location: "TBD"
 
-disclaimer: "This is by no means a requirement, just a suggestion to help you stay on track and finish the book by the end date :)"
+disclaimer: "Here is a little timeline to help keep you on track [not that you need it, champ ;D ]."
 
 pacing:
     - "May 20 - May 27 :: pp 1-111"
@@ -24,11 +26,12 @@ pacing:
     - "June 3 - June 10 :: pp 195-313"
     - "June 10 - June 19 :: pp 313 - 458"
 
-encouragement: "This works out to a little over 100 pages per week. If you pace yourself it's really not that bad -- but the point is to have fun!"
+encouragement: ""
 
 explanation_title: "Wait what's happening?"
 explanation:
-    - "Some of the members of the #osu-lug community discovered that they all felt similarly about their constant use of technology. They realized that they'd rather find something else like a hobby, sport, or a book club."
+    - "We read a book and congregate in meatspace to discuss what we read over drinks and such."
+    - "Some of the members of the #osu-lug community realized they were unhappy with their level of use of technology. As awesome as computers are they're rather do something *away* from the screen now and then."
     - "So basically a few members of the community hastily decided 'LETS START A BOOK CLUB!!!' and now this exists."
-    - "We read a book every month and come together in meatspace to discuss the book. What we liked, what we didn't, etc."
-    - "If you have a suggestion for a book to read, or you'd like to host the meetup contact Eli. If you got here you probably know how to do that already."
+    - "We read a book every month and come together in meatspace to discuss said book. What we liked, what we didn't, etc."
+    - "If you have a suggestion for a good title to read, or you'd like to host the next meetup, contact Eli. If you got here you probably know how to do that already."
