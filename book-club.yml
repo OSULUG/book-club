@@ -4,7 +4,7 @@ release: "cause words is nicer than pixles sometimes."
 
 preamble:
     - "A book club for anybody and everybody who's just sick of looking at a computer screen for so damn long."
-    - "Hosted by the #osu-lug community."
+    - "Hosted by the <a href='http://lug.oregonstate.edu'>#osu-lug community</a>."
 
 tagline: ""
 
@@ -24,14 +24,14 @@ pacing:
     - "May 20 - May 27 :: pp 1-111"
     - "May 27 - June 3 :: pp 112-195"
     - "June 3 - June 10 :: pp 195-313"
-    - "June 10 - June 19 :: pp 313 - 458"
+    - "June 10 - June 19 :: pp 313-458"
 
 encouragement: ""
 
 explanation_title: "Wait what's happening?"
 explanation:
     - "We read a book and congregate in meatspace to discuss what we read over drinks and such."
-    - "Some of the members of the #osu-lug community realized they were unhappy with their level of use of technology. As awesome as computers are they're rather do something *away* from the screen now and then."
+    - "Some of the members of the #osu-lug community realized they were unhappy with their level of use of technology. As awesome as computers are they would rather do something *away* from the screen now and then."
     - "So basically a few members of the community hastily decided 'LETS START A BOOK CLUB!!!' and now this exists."
     - "We read a book every month and come together in meatspace to discuss said book. What we liked, what we didn't, etc."
     - "If you have a suggestion for a good title to read, or you'd like to host the next meetup, contact Eli. If you got here you probably know how to do that already."
