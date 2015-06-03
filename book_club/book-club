@@ -4,7 +4,7 @@ from book_club import build, setup
 
 help_msg = """
 Thanks for downloading and installing the book_club package!
-Don't forget to have a template.jinja, book-club.yml,
+Don't forget to have a template.jinja, book-club.rst,
 and style.css in this directory.
 
 These can be easily created with the command `book-club setup`
