@@ -5,16 +5,18 @@ Hosted on http://elijahcaine.me/bookclub/
 'It ain't supposed to be pretty, it's just supposed to work.'
     - me. right now.
 """
-from yaml import load
+
+from docutils.core import publish_parts
 from jinja2 import Environment, FileSystemLoader
 from os.path import isfile
 from os import getcwd
 import requests
 
 
+
 def test_files():
     yell = ''
-    needed = ["template.jinja", "book-club.yml", "style.css"]
+    needed = ["template.jinja", "book-club.rst", "style.css"]
     for n in needed:
         if not isfile(n):
             yell += n + " does not appear to be available.\n"
@@ -22,36 +24,24 @@ def test_files():
         raise Exception(yell + " run `book-club setup` to fix it.")
         exit(1)
 
+
 def build():
     test_files()
-    with open('book-club.yml') as f:
-        cfg = load(f)
+    with open('book-club.rst') as f:
+        content = publish_parts(f.read(), writer_name='html')
+        title = content['title']
+        body =  content['html_body'].replace('\n',' ')
 
     with open('template.jinja', 'r') as f:
         loader = FileSystemLoader(getcwd())
         env= Environment(loader=loader)
         template = env.get_template('template.jinja')
-        page =  template.render(release=cfg['release'],
-                                title=cfg['title'],
-                                site_title=cfg['site_title'],
-                                preamble=cfg['preamble'],
-                                tagline=cfg['tagline'],
-                                this_month_book=cfg['this_month_book'],
-                                this_month_link=cfg['this_month_link'],
-                                this_month_image=cfg['this_month_image'],
-                                hovertext=cfg['hovertext'],
-                                start_date=cfg['start_date'],
-                                end_date=cfg['end_date'],
-                                meetup_location=cfg['meetup_location'],
-                                pacing=cfg['pacing'],
-                                encouragement=cfg['encouragement'],
-                                disclaimer=cfg['disclaimer'],
-                                explanation_title=cfg['explanation_title'],
-                                explanation=cfg['explanation']
-                                )
+        page =  template.render(title=title,
+                                content=body)
 
     with open('index.html', 'w') as f:
         f.write(page)
+
 
 def setup():
     if not isfile("style.css"):
@@ -60,9 +50,10 @@ def setup():
     if not isfile("template.jinja"):
         download('https://raw.githubusercontent.com/ElijahCaine/book_club/master/template.jinja', 'template.jinja')
         print("Downloaded example template.jinja")
-    if not isfile("book-club.yml"):
-        download('https://raw.githubusercontent.com/ElijahCaine/book_club/master/book-club.yml', 'book-club.yml')
-        print("Downloaded example book-club.yml")
+    if not isfile("book-club.rst"):
+        download('https://raw.githubusercontent.com/ElijahCaine/book_club/master/book-club.rst', 'book-club.rst')
+        print("Downloaded example book-club.rst")
+
 
 def download(url=None, file=None):
     print("Downloading " + file + " from " + url)

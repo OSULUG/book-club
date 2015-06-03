@@ -7,47 +7,43 @@
     background: white;
 }
 
-img.book {
-    height: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
-
-h1.title {
-    font-weight: bold;
-}
-
-h5.release {
-    color: white;
-    background: black; 
-    text-align: right;
-    text-decoration: bold;
-}
-
-.important {
-    font-weight: bold;
-}
-
-.styled {
-    font-style: italic;
-}
-
 li {
     list-style-type: none;
-}
-
-h2, h3 {
-    background: black;
-    color: white;
-}
-
-h2 a {
-    text-decoration: none;
-    color: white;
 }
 
 .end {
     color: black;
     background: black;
+}
+
+hr {
+    height: 14px;
+    background-color: black;
+}
+
+h1 {
+    color: black;
+    background: white;
+    font-size: 38px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.section h1 {
+    color: white;
+    font-size: 25px;
+    background: black;
+}
+
+.section a {
+    color: white;
+    font-size: 25px;
+    background: black;
+}
+
+.section img {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    display: block;
 }

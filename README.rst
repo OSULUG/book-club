@@ -3,7 +3,7 @@
 `book_club` is a little python tool used to automate the upkeep of my book
 club.
 
-All you need to do is update the appropriate variables in the book-club.yml
+All you need to do is update the appropriate variables in the book-club.rst
 file and run `book-club build`. It'll generate an index.html file and you're
 good to go.
 
@@ -22,11 +22,11 @@ Here's what your directory structure should look like
 
     yourdomain.bla/
         bookclub/
-            book-club.yml
+            book-club.rst
             style.css
             template.jinja
 
 `bookclub` is however you want to call `yourdomain.ext/bookclub/`.
 
-For an exmample of book-club.yml, template.jinja, and style.css check out the
+For an exmample of book-club.rst, template.jinja, and style.css check out the
 ones in this repo.

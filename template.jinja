@@ -13,60 +13,7 @@
     <body>
         <div id=main>
 
-
-            <h1 class='title'>{{ site_title }}</h1>
-            <h5 class='release'>{{ release }}</h5>
-
-            {% for i in range(preamble|length) %}
-                <p>{{ preamble[i] }}</p>
-            {% endfor %}
-
-            <h3 class='styled'>
-                {{ tagline }}
-            </h3>
-
-
-            <h2 class='important'>This Month: 
-                <a href='{{ this_month_link }}'>
-                    {{ this_month_book }}
-                </a>
-            </h2>
-
-            <a href='{{ this_month_link }}'>
-                <img class='book' src='{{ this_month_image }}' title='{{ hovertext }}' alt='{{ this_month_book }}'></img>
-            </a>
-
-            <p>Start Date:
-                    <span class='important'>
-                        {{ start_date }}
-                    </span>
-                    ~
-               End Date:
-                    <span class='important'>
-                        {{ end_date }}
-                    </span>
-            </p>
-
-
-            <p>Meetup Info: <span class='important'>{{ meetup_location }}</span></p>
-
-
-            <h3>Timeline:</h3>
-            <p>{{ disclaimer }}</p>
-
-            <ul>
-            {% for i in range(pacing|length) %}
-                <li>{{ pacing[i] }}</li>
-            {% endfor %}
-            </ul>
-
-            <p>{{ encouragement }}</p>
-
-
-            <h3>{{ explanation_title }}</h3>
-            {% for i in range(explanation|length) %}
-                <p>{{ explanation[i] }}</p>
-            {% endfor %}
+            {{ content }}
 
             <h5 class='end'>secret text!</h3>
 
