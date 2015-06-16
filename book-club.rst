@@ -31,8 +31,7 @@ This Month: `100 Years of Solitude`_
 
 Start Date: **May 20, 2015** ~ End Date: **June 20, 2015**
 
-Meetup Info: Zeus Café, Portland OR, Sometime between 11:00 and 14:00. Doodle
-poll pending.
+Meetup Info: **Zeus Café**, Portland OR, at **12:00 noon**.
 
 .. _100 Years of Solitude: https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude
 .. _RSVP to the June Meetup: http://doodle.com/pfhzb8myhvm3q4pt
@@ -41,18 +40,6 @@ poll pending.
 .. _Purchase 100 Years on Amazon: http://amzn.com/0060883286 
 .. _Torrent 100 Years from Kickass (digital): https://kat.cr/gabriel-garcia-marquez-one-hundred-years-of-solitude-kindle-mobi-t9019128.html
 .. _Torrent 100 Years from Kickass (audio): https://kat.cr/one-hundred-years-of-solitude-64-by-gabriel-garcia-marquez-1970-abee-t9013481.html
-
-
-Timeline:
-~~~~~~~~~
-
-Here is a little timeline to help keep you on track [not that you need it,
-champ ;D ].
-
-- May 20 - May 27 :: pp 1-111
-- May 27 - June 3 :: pp 112-195
-- June 3 - June 10 :: pp 195-313
-- June 10 - June 19 :: pp 313-458
 
 
 Next Month: `The Martian`_
