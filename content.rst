@@ -9,40 +9,7 @@ Hosted by the `#osu-lug`_ community.
 .. _#osu-lug: http://lug.oregonstate.edu
 
 
-This Month: `100 Years of Solitude`_
-------------------------------------
-
-.. class:: image
-
-.. figure:: http://media-cache-ak0.pinimg.com/736x/9d/da/a8/9ddaa80c90b189a4e653f4f567ea3710.jpg
-    :height: 200
-
-.. container:: links
-
-    **Links:**
-
-    * `RSVP to the June Meetup`_
-    * `Read About 100 Years on Wikipedia`_
-    * `Purchase 100 Years from Powell's`_
-    * `Purchase 100 Years on Amazon`_ (deadtree, digital, or audio)
-    * `Torrent 100 Years from kickass (digital)`_
-    * `Torrent 100 Years from kickass (audio)`_
-
-
-Start Date: **May 20, 2015** ~ End Date: **June 20, 2015**
-
-Meetup Info: **Zeus Café**, Portland OR, at **12:00 noon**.
-
-.. _100 Years of Solitude: https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude
-.. _RSVP to the June Meetup: http://doodle.com/pfhzb8myhvm3q4pt
-.. _Read About 100 Years on Wikipedia: https://en.wikipedia.org/wiki/One_Hundred_Years_of_Solitude
-.. _Purchase 100 Years from Powell's: http://www.powells.com/biblio/2-9780061120091-15
-.. _Purchase 100 Years on Amazon: http://amzn.com/0060883286 
-.. _Torrent 100 Years from Kickass (digital): https://kat.cr/gabriel-garcia-marquez-one-hundred-years-of-solitude-kindle-mobi-t9019128.html
-.. _Torrent 100 Years from Kickass (audio): https://kat.cr/one-hundred-years-of-solitude-64-by-gabriel-garcia-marquez-1970-abee-t9013481.html
-
-
-Next Month: `The Martian`_
+This Month: `The Martian`_
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. class:: image
@@ -60,7 +27,7 @@ Next Month: `The Martian`_
     * `Torrent The Martian from kickass (digital)`_
     * `Torrent The Martian from kickass (audio)`_
 
-Start Date: **June 21, 2015** ~ End Date: **July 19, 2015**
+Start Date: **June 21, 2015** ~ End Date: **July 18, 2015**
 
 Meetup Info: TBD
     
@@ -72,11 +39,38 @@ Meetup Info: TBD
 .. _Torrent The Martian from kickass (audio): https://kat.cr/the-martian-andy-weir-audiobook-mp3-cbr-64k-t9096733.html
 
 
+Next Month: `Use of Weapons`_
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. class:: image
+
+.. figure:: https://upload.wikimedia.org/wikipedia/en/e/ef/IainMBanksUseofWeapons.jpg
+    :height: 200
+
+.. container:: links
+
+    **Links:**
+
+    * `Read about Use of Weapons Wikipedia`_
+    * `Purchase Use of Weapons from Powell's`_ (deadtree)
+    * `Purchase Use of Weapons on Amazon`_ (deadtree, digital, or audio)
+    * `Torrent Use of Weapons from kickass (digital)`_
+
+Start Date: **July 19, 2015** ~ End Date: **August 15, 2015**
+
+Meetup Info: TBD
+    
+.. _Use of Weapons: https://en.wikipedia.org/wiki/Use_of_Weapons
+.. _Read about Use of Weapons Wikipedia: https://en.wikipedia.org/wiki/Use_of_Weapons
+.. _Purchase Use of Weapons from Powell's: http://www.powells.com/biblio/2-9780316030571-3
+.. _Purchase Use of Weapons on Amazon: http://amzn.com/0316030570
+.. _Torrent Use of Weapons from kickass (digital): https://kat.cr/iain-m-banks-use-of-weapons-culture-3-t10152301.html
+
 Wait what's happening?
 ~~~~~~~~~~~~~~~~~~~~~~
 
 We read a book and congregate in meatspace to discuss what we read over drinks
-and such.
+and such. We meet around the third Saturday of every month in Portland Oregon.
 
 Some of the members of the #osu-lug community realized they were unhappy with
 their level of use of technology. As awesome as computers are they would rather
@@ -92,3 +86,7 @@ If you have a suggestion for a good title to read, or you'd like to host the
 next meetup, contact Eli. If you got here you probably know how to do that
 already.
 
+If you don't want to contact Eli directly, create an issue tagged 'book
+suggestion' on `this page's github repo`_
+
+.. _this page's github repo: https://github.com/ElijahCaine/book_club/issues/
