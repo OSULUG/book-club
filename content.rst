@@ -10,7 +10,7 @@ Hosted by the `#osu-lug`_ community.
 
 
 This Month: `The Martian`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 .. class:: image
 
@@ -30,6 +30,15 @@ This Month: `The Martian`_
 Start Date: **June 21, 2015** ~ End Date: **July 18, 2015**
 
 Meetup Info: TBD
+
+**Obligatory Relevant XKCD:**
+
+.. figure:: http://imgs.xkcd.com/comics/the_martian.png 
+    :width: 100%
+
+    Hovertext: `I have never seen a work of fiction so perfectly capture the
+    out-of-nowhere shock of discovering that you've just bricked something
+    important because you didn't pay enough attention to a loose wire.`
     
 .. _The Martian: https://en.wikipedia.org/wiki/The_Martian_%28Weir_novel%29
 .. _Read about The Martian Wikipedia: https://en.wikipedia.org/wiki/The_Martian_%28Weir_novel%29
@@ -40,7 +49,7 @@ Meetup Info: TBD
 
 
 Next Month: `Use of Weapons`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------
 
 .. class:: image
 
@@ -59,7 +68,7 @@ Next Month: `Use of Weapons`_
 Start Date: **July 19, 2015** ~ End Date: **August 15, 2015**
 
 Meetup Info: TBD
-    
+
 .. _Use of Weapons: https://en.wikipedia.org/wiki/Use_of_Weapons
 .. _Read about Use of Weapons Wikipedia: https://en.wikipedia.org/wiki/Use_of_Weapons
 .. _Purchase Use of Weapons from Powell's: http://www.powells.com/biblio/2-9780316030571-3

@@ -67,10 +67,7 @@ h2 a {
     float: left;
     height: 300px;
     text-align: center;
-}
-
-img {
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 .container, .links div {
