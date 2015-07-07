@@ -29,7 +29,7 @@ This Month: `The Martian`_
 
 Start Date: **June 21, 2015** ~ End Date: **July 18, 2015**
 
-Meetup Info: TBD
+Meetup Info: Sunday, July 19th. Time and Location TBD
 
 **Obligatory Relevant XKCD:**
 
