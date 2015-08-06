@@ -45,6 +45,8 @@ Next Month: Help decide!
 
 Check out `the etherpad`_ to help us determine what book to read
 
+.. _the etherpad: http://etherpad.osuosl.org/september-book-club
+
 Wait what's happening?
 ~~~~~~~~~~~~~~~~~~~~~~
 
