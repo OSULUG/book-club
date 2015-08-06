@@ -28,7 +28,7 @@ This Month: `Use of Weapons`_
     * `Purchase Use of Weapons on Amazon`_ (deadtree, digital, or audio)
     * `Torrent Use of Weapons from kickass (digital)`_
 
-Start Date: **July 19, 2015** ~ End Date: **August 15, 2015**
+Start Date: **July 19, 2015** ~ End Date: **Friday September 4, 2015**
 
 Meetup Info: TBD (`Let us know when you're available!`_)
 
