@@ -9,47 +9,10 @@ Hosted by the `#osu-lug`_ community.
 .. _#osu-lug: http://lug.oregonstate.edu
 
 
-This Month: `The Martian`_
---------------------------
-
-.. class:: image
-
-.. figure:: https://upload.wikimedia.org/wikipedia/en/c/c3/The_Martian_2014.jpg
-    :height: 200
-
-.. container:: links
-
-    **Links:**
-
-    * `Read about The Martian Wikipedia`_
-    * `Purchase The Martian from Powell's`_ (deadtree)
-    * `Purchase The Martian on Amazon`_ (deadtree, digital, or audio)
-    * `Torrent The Martian from kickass (digital)`_
-    * `Torrent The Martian from kickass (audio)`_
-
-Start Date: **June 21, 2015** ~ End Date: **July 18, 2015**
-
-Meetup Info: Sunday, July 19th. Time and Location TBD
-
-**Obligatory Relevant XKCD:**
-
-.. figure:: http://imgs.xkcd.com/comics/the_martian.png 
-    :width: 100%
-
-    Hovertext: `I have never seen a work of fiction so perfectly capture the
-    out-of-nowhere shock of discovering that you've just bricked something
-    important because you didn't pay enough attention to a loose wire.`
-    
-.. _The Martian: https://en.wikipedia.org/wiki/The_Martian_%28Weir_novel%29
-.. _Read about The Martian Wikipedia: https://en.wikipedia.org/wiki/The_Martian_%28Weir_novel%29
-.. _Purchase The Martian from Powell's: http://www.powells.com/biblio/1-9780553418026-7
-.. _Purchase The Martian on Amazon: http://amzn.com/0553418025
-.. _Torrent The Martian from kickass (digital): https://kat.cr/andy-weir-the-martian-t10269305.html
-.. _Torrent The Martian from kickass (audio): https://kat.cr/the-martian-andy-weir-audiobook-mp3-cbr-64k-t9096733.html
-
-
-Next Month: `Use of Weapons`_
+This Month: `Use of Weapons`_
 -----------------------------
+
+`When can you make it? (Doodle poll)`_
 
 .. class:: image
 
@@ -67,13 +30,20 @@ Next Month: `Use of Weapons`_
 
 Start Date: **July 19, 2015** ~ End Date: **August 15, 2015**
 
-Meetup Info: TBD
+Meetup Info: TBD (`Let us know when you're available!`_)
 
+.. _When can you make it? (Doodle poll): http://doodle.com/5cvxnnq9nnfw3fri
+.. _Let us know when you're available!: http://doodle.com/5cvxnnq9nnfw3fri
 .. _Use of Weapons: https://en.wikipedia.org/wiki/Use_of_Weapons
 .. _Read about Use of Weapons Wikipedia: https://en.wikipedia.org/wiki/Use_of_Weapons
 .. _Purchase Use of Weapons from Powell's: http://www.powells.com/biblio/2-9780316030571-3
 .. _Purchase Use of Weapons on Amazon: http://amzn.com/0316030570
 .. _Torrent Use of Weapons from kickass (digital): https://kat.cr/iain-m-banks-use-of-weapons-culture-3-t10152301.html
+
+Next Month: Help decide!
+------------------------
+
+Check out `the etherpad`_ to help us determine what book to read
 
 Wait what's happening?
 ~~~~~~~~~~~~~~~~~~~~~~
