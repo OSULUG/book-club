@@ -43,7 +43,7 @@ This Month: `Use of Weapons`_
 
 Meetup Date/Time: Friday September 5th, 13:00
 
-Meetup Location: 13th and Washington (Portland, Oregon)
+Meetup Location: 10th and Washington (Portland, Oregon)
 
 .. _Use of Weapons: https://en.wikipedia.org/wiki/Use_of_Weapons
 .. _Read about Use of Weapons Wikipedia: https://en.wikipedia.org/wiki/Use_of_Weapons
