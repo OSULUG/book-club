@@ -87,3 +87,8 @@ h2 a {
 h5 {
     background: black;
 }
+
+.literal {
+    background: #DDD;
+    border-radius: 3px;
+}
