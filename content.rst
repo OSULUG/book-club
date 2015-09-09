@@ -12,7 +12,7 @@ Hosted by the `#osu-lug`_ community.
 
 * This website's GitHub `Issues Page`_ (for formally submitting a book
   suggestion)
-* `Use of Weapons`_ (this month's book)
+* `REAMDE`_ (this month's book)
 * `TBD`_ (next month's book)
 * ``##lugbookclub`` (this is the  irc.freenode.net channel where we talk about
   the book club. Join it for discussions and updates)
@@ -24,40 +24,35 @@ Hosted by the `#osu-lug`_ community.
 .. _Basic Information: #wait-what-s-happening
 .. _TBD:
 
-This Month: `Use of Weapons`_
------------------------------
+This Month: `REAMDE`_
+---------------------
 
-.. class:: image
+.. figure:: https://upload.wikimedia.org/wikipedia/en/2/26/Reamde_stephenson_williammorrow_2011.jpg
+    :align: center
+    :width: 200
+    :alt: REAMDE book cover
 
-.. figure:: https://upload.wikimedia.org/wikipedia/en/e/ef/IainMBanksUseofWeapons.jpg
-    :height: 300
+.. class:: center
 
-.. container:: links
+    *For September to October 2015*
 
-    **Links:**
+**Purchase & Information Links:**
 
-    * `Read about Use of Weapons Wikipedia`_
-    * `Purchase Use of Weapons from Powell's`_ (deadtree)
-    * `Purchase Use of Weapons on Amazon`_ (deadtree, digital, or audio)
-    * `Torrent Use of Weapons from kickass (digital)`_
+* `REAMDE Wiki Page`_
+* `REAMDE Digital Purchase`_
+* `REAMDE DeadTree Purchase`_
+* `REAMDE Audiobook Purchase`_
+* `REAMDE Torrent Download`_
 
-Meetup Date/Time: Friday September 5th, 13:00
+Meetup Info: **TBD**
 
-Meetup Location: 10th and Washington (Portland, Oregon)
+.. _REAMDE: https://en.wikipedia.org/wiki/Reamde
+.. _REAMDE Wiki Page: https://en.wikipedia.org/wiki/Reamde
+.. _REAMDE Torrent Download: http://isohunt.developerartofwar.com/torrent_details/13429770/Reamde-Neal-Stephenson
+.. _REAMDE DeadTree Purchase: http://www.powells.com/s?kw=reamde
+.. _REAMDE Audiobook Purchase: http://www.audible.com/pd/Sci-Fi-Fantasy/Reamde-Audiobook/B005PMU12U
+.. _REAMDE Digital Purchase: http://amzn.com/0062191497 
 
-.. _Use of Weapons: https://en.wikipedia.org/wiki/Use_of_Weapons
-.. _Read about Use of Weapons Wikipedia: https://en.wikipedia.org/wiki/Use_of_Weapons
-.. _Purchase Use of Weapons from Powell's: http://www.powells.com/biblio/2-9780316030571-3
-.. _Purchase Use of Weapons on Amazon: http://amzn.com/0316030570
-.. _Torrent Use of Weapons from kickass (digital): https://kat.cr/iain-m-banks-use-of-weapons-culture-3-t10152301.html
-
-Next Month: VARiABLE NOT FOUND
-------------------------------
-
-Answer this poll to help us determine the September-October book choice:
-http://strawpoll.me/5383204
-
-The book will be decided Friday September 5th, 2015 (11:59:59.999999999999999).
 
 Wait what's happening?
 ~~~~~~~~~~~~~~~~~~~~~~

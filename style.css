@@ -1,94 +1,39 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    color: black;
-    font-family: ‘Lucida Console’, Monaco, monospace
+#main {
+    max-width: 650px;width: 95%;
+    margin-left:auto;margin-right:auto;
+    height: 100%;
 }
 
-div {
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-p {
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-ul {
-    list-style-type: square;
-    padding-bottom: 0px;
-}
-
-li {
-    padding-top: 1px;
-    padding-bottom: 5px;
-}
-
-h1, h2 {
+h1, h2, h3, h4, h5, a{
     background: black;
     color: white;
-    margin-top: 0;
 }
 
-a:hover {
-    font-weight: bold;
-}
-
-h1 a {
-    color: white;
-}
-
-h2 a {
-    color: white;
-}
-
-.title {
-    font-size: 40px;
+h1 {
+    font-size: 3em;
 }
 
 .section h1 {
-    font-size: 25px;
+    font-size: 2em;
 }
 
-.document {
-    width: 550px;
+.figure {
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
-.section div{
-    margin-top: 5px;
-}
-
-
-.image, .figure div {
-    width: 50%;
-    float: left;
-    height: 300px;
-    text-align: center;
-    padding-top: 40px;
-}
-
-.container, .links div {
-    width: 50%;
-    float: right;
-    height: 300px;
-}
-
-.container p {
-    margin-bottom: 5px;
-}
-
-.end {
-    color: black;
-}
-
-h5 {
-    background: black;
+li {
+    padding-bottom: 7px;
+    list-style-type: square;
 }
 
 .literal {
     background: #DDD;
     border-radius: 3px;
+    font-size: 1.25em;
+}
+
+.section .center {
+    text-align: center
 }
