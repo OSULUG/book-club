@@ -19,7 +19,7 @@ Hosted by the `#osu-lug`_ community.
 * `Basic Information`_ about what the heck this thing is.
 * `How to Vote`_ for the books we read each month.
 
-.. _Issues Page: https://github.com/elijahcaine/book_club/issues
+.. _Issues Page: https://github.com/elijahcaine/book-club/issues
 .. _How to Vote: #voting
 .. _Basic Information: #wait-what-s-happening
 .. _TBD:
@@ -98,4 +98,4 @@ nominations will be put into a strawpoll and voted on for the next month's
 book. Eli may executive decide to put one book on the ballot that was not
 highly voted, but there will always be some pre-democracy in the ballot.
 
-.. _this page's github repo: https://github.com/ElijahCaine/book_club/issues/
+.. _this page's github repo: https://github.com/ElijahCaine/book-club/issues/
