@@ -12,7 +12,7 @@ Hosted by the `#osu-lug`_ community.
 
 * This website's GitHub `Issues Page`_ (for formally submitting a book
   suggestion)
-* `REAMDE`_ (this month's book)
+* `NANOWRIMO`_ (this month's project)
 * `TBD`_ (next month's book)
 * ``##lugbookclub`` (this is the  irc.freenode.net channel where we talk about
   the book club. Join it for discussions and updates)
@@ -24,34 +24,68 @@ Hosted by the `#osu-lug`_ community.
 .. _Basic Information: #wait-what-s-happening
 .. _TBD:
 
-This Month: `REAMDE`_
----------------------
+This Month: `NaNoWriMo`_
+------------------------
 
-.. figure:: https://upload.wikimedia.org/wikipedia/en/2/26/Reamde_stephenson_williammorrow_2011.jpg
+.. figure:: http://d3bhawflmd1fic.cloudfront.net/assets/crest-05e1a637392425b4d5225780797e5a76.png
     :align: center
     :width: 200
-    :alt: REAMDE book cover
+    :alt: NANOWRIMO Logo
 
 .. class:: center
 
-    *For September to October 2015*
+    *For the month of November, 2015*
 
-**Purchase & Information Links:**
+This month the LUG Book Club will be participating in National Novel Writing
+Month, or `NaNoWriMo`_. If you choose to participate you will spend the next
+month putting in your best effort to produce a ~50,000 word novel.
 
-* `REAMDE Wiki Page`_
-* `REAMDE Digital Purchase`_
-* `REAMDE DeadTree Purchase`_
-* `REAMDE Audiobook Purchase`_
-* `REAMDE Torrent Download`_
+    *National Novel Writing Month (NaNoWriMo) is a fun, seat-of-your-pants
+    approach to creative writing.*
 
-Meetup Info: **TBD**
+    *On November 1, participants begin working towards the goal of writing a
+    50,000-word novel by 11:59 PM on November 30.*
 
-.. _REAMDE: https://en.wikipedia.org/wiki/Reamde
-.. _REAMDE Wiki Page: https://en.wikipedia.org/wiki/Reamde
-.. _REAMDE Torrent Download: http://isohunt.developerartofwar.com/torrent_details/13429770/Reamde-Neal-Stephenson
-.. _REAMDE DeadTree Purchase: http://www.powells.com/s?kw=reamde
-.. _REAMDE Audiobook Purchase: http://www.audible.com/pd/Sci-Fi-Fantasy/Reamde-Audiobook/B005PMU12U
-.. _REAMDE Digital Purchase: http://amzn.com/0062191497 
+    *Valuing enthusiasm, determination, and a deadline, NaNoWriMo is for anyone
+    who has ever thought about writing a novel.*
+
+How Do I Write A Novel in a Month?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+There are a lot of great resources available to help you get started and keep
+writing once you've begun.
+
+* The `NaNoWriMo Writing Tracker`_ can help you keep on task too by adding a
+  social aspect to the writing process.
+* NaNoWriMo's official site also has an entire `Get Inspired`_ section you
+  should check out to get your ball rolling.
+* Mythmon wrote a cool GitHub badge for online repositories storing their
+  novels in Git. It is called the `NaNoWriMo Badge`_.
+* And of course you can join us in the ##lugbookclub channel on
+  irc.freenode.net to discuss your writing and ask for tips and advice. :)
+
+Of course there's no harm in missing the mark. NaNoWriMo is about having fun,
+not stress or losing sleep. Enjoy the experience, push yourself a little bit,
+and feel the creative juices flow.
+
+So We're *Not* Reading a Book?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you don't want to participate in the writing portion of this event we are
+also reading the book `Down and Out in the Magic Kingdom`_ by `Cory Doctrow`_.
+
+Down and Out is available in hard cover for purchase at your local book store,
+at most online retailers, and available `for free from the author`_.
+
+Meetup Info: Early December. Location TBD
+
+.. _NaNoWriMo: http://nanowrimo.org/
+.. _NaNoWriMo Badge: https://github.com/mythmon/nanowrimo-badge
+.. _NaNoWriMo Writing Tracker: https://nanowrimo.org/sign_up
+.. _Get Inspired: http://nanowrimo.org/inspiration
+.. _Down and Out in the Magic Kingdom: http://craphound.com/category/down/
+.. _Cory Doctrow: http://craphound.com/
+.. _for free from the author: http://craphound.com/down/download/
 
 
 Wait what's happening?
@@ -97,5 +131,8 @@ Every month the three book suggestions (Github issues) with the most ``+1``
 nominations will be put into a strawpoll and voted on for the next month's
 book. Eli may executive decide to put one book on the ballot that was not
 highly voted, but there will always be some pre-democracy in the ballot.
+
+If time is short and Eli forget's to draw up a ballot before the month begins
+he will decide on a book to read, sans democracy.
 
 .. _this page's github repo: https://github.com/ElijahCaine/book-club/issues/

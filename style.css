@@ -4,9 +4,17 @@
     height: 100%;
 }
 
-h1, h2, h3, h4, h5, a{
+h1, h2, h3, h4, h5 {
     background: black;
     color: white;
+}
+
+h1 a {
+    color: white;
+}
+
+a {
+    color: black;
 }
 
 h1 {
